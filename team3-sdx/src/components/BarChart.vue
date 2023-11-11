@@ -17,9 +17,11 @@ export default {
         labels: [ 'Company A', 'Company B', 'Company C', 'Company D', 'Company E', 'Company F', 'Company G'],
         datasets: [
           {
-            label: 'Data One',
+            indexAxis: 'y',
+            label: 'Number of Coins',
             backgroundColor: '#1c6aaf',
-            data: [40, 20, 12, 23, 55, 66 , 21]
+            data: [40, 20, 12, 23, 55, 66 , 21],
+            fill:false
           }
         ]
       }
