@@ -15,13 +15,14 @@ import Modal from './components/Modal.vue';
 
 <template>
   <header class="header">
-    <div class="img"><img src="green_nature_logo.png" height="60"></div>
+    <div class="img"><img src="green_nature_logo.png" height="100"></div>
     <nav>
       <!-- <RouterLink to="/dash">Go to Dashboard</RouterLink>
       <RouterLink to="/Home">Home</RouterLink> -->
 
-      <router-link to="/barchart">Go to Dashboard</router-link>
-      <router-link to="/about">Sustainability</router-link>
+      <router-link to="/barchart" style="font-size: x-large">Go to Dashboard</router-link>
+      <router-link to="/about" style="font-size: x-large">Sustainability</router-link>
+      <!--router-link to="/sust" style="font-size: x-large">Live Demo</router-link-->
 
     </nav>
   </header>
@@ -37,9 +38,9 @@ import Modal from './components/Modal.vue';
 } */
 
 .img {
-  /* margin: 20px; */
-  /* padding: 20px; */
-
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
   opacity: 0.5;
 }
 
@@ -53,7 +54,7 @@ import Modal from './components/Modal.vue';
   width:100vw;      /* take up the full browser width */
   z-index:200;  /* high z index so other content scrolls underneath */
   height:100px;     /* define height for content */
-  font-size:large;
+  font-size:x-large;
 }
 
 .logo {
