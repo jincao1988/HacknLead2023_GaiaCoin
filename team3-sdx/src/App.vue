@@ -21,10 +21,11 @@ import Modal from './components/Modal.vue';
       <RouterLink to="/Home">Home</RouterLink> -->
 
       <router-link to="/barchart">Go to Dashboard</router-link>
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">Sustainability</router-link>
 
     </nav>
   </header>
+
   <!-- <RouterView /> -->
   <router-view/>
 </template>
@@ -38,7 +39,7 @@ import Modal from './components/Modal.vue';
 .img {
   /* margin: 20px; */
   /* padding: 20px; */
-  background-color: green;
+
   opacity: 0.5;
 }
 
