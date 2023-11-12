@@ -15,6 +15,17 @@ export default {
     return {
       chartData: {
         labels: [ 'Company A', 'Company B', 'Company C', 'Company D', 'Company E', 'Company F', 'Company G'],
+        mounted () {
+          this.renderChart(this.chartData, {
+            responsive: true,
+            maintainAspectRatio: false,
+            options: {
+              onClick: (event, item) => {
+                console.log(item);
+              }
+            }
+          })
+        },
         datasets: [
           {
             indexAxis: 'y',
