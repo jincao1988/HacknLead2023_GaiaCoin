@@ -2,7 +2,7 @@
 import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
-<template>
+<template id="home">
   <main>
     <TheWelcome />
   </main>
