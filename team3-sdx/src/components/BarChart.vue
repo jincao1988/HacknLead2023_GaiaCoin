@@ -1,4 +1,4 @@
-<template>
+<template id="barchart">
   <Bar :data="chartData" />
 </template>
 
