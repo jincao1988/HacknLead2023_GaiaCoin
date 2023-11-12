@@ -10,18 +10,14 @@ import Modal from './components/Modal.vue';
 
 <template>
   <header>
-
-    <div class="wrapper">
-      <HelloWorld msg="Ranking Dashboard" />
-      <button class="button-9" @click="openModal">Press here to send coins to companies!</button>
-      <Modal ref="modal" :data="message">
-
-      </Modal>
-    </div>
+    <router-link to="/dashboard">Dashboard</router-link>
+    some text
   </header>
 
+  some text
 
-  <BarChart />
+
+  <button @click="navigateToDashboard" class="button-9">Go to Dashboard</button>
 </template>
 
 <style scoped>
