@@ -1,7 +1,7 @@
 <template id="sust">
   <div class="sust">
     <video controls>
-      <source src="./video.mov" type="video/mov">
+      <source src="./video.mp4" type="video/mp4">
 
     </video>
 
