@@ -22,7 +22,7 @@ import Modal from './components/Modal.vue';
 
       <router-link to="/barchart" style="font-size: x-large">Go to Dashboard</router-link>
       <router-link to="/about" style="font-size: x-large">Sustainability</router-link>
-      <!--router-link to="/sust" style="font-size: x-large">Live Demo</router-link-->
+      <router-link to="/sust" style="font-size: x-large">Live Demo</router-link>
 
     </nav>
   </header>

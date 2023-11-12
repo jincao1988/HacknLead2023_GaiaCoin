@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import AboutView from '../views/AboutView.vue'
 import Dashboard from "../components/Dashboard.vue";
 import BarChart from "../components/BarChart.vue";
-//import SustView from "../components/SustView.vue";
+import SustView from "../views/SustView.vue";
 // import Vue from 'vue';
 // import VueRouter from 'vue';
 // Vue.use(VueRouter);
@@ -19,7 +19,11 @@ const router = createRouter({
       name: 'barchart',
       component: BarChart
     },
-
+    {
+      path: '/sust',
+      name: 'sust',
+      component: SustView
+    }
     // {
     // path: '/about',
     // // name: 'about',
